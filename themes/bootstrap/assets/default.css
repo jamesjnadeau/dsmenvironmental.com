@@ -1,0 +1,126 @@
+
+.brand.navbar-brand
+{
+	font-family: 'Changa One', cursive;
+	color: #FFF;
+}
+
+a.navbar-brand.brand {
+	font-size: 28px;
+}
+
+body {
+	/* Background pattern from subtlepatterns.com */
+	background-image: url('noisy_grid.png');
+	background-repeat: repeat;
+	background-color: transparent ! important;
+}
+
+h1
+{
+	border-bottom: 2px solid #4A203B;
+	padding-bottom: 5px;
+}
+
+img.content-secondary
+{
+	max-width: 100%;
+}
+
+img.img-responsive.img-rounded
+{
+	margin: 0px auto 0px auto;
+}
+
+h3.list-group-item,
+.list-group-item h4,
+a.list-group-item
+{
+	font-family: 'Quando', serif;
+	/* background-color: #E6E6E6; */
+}
+
+
+
+.navbar .active
+{
+	background-color: #E6E6E6;
+}
+
+.navbar, .dropdown-menu
+{
+	background-color: #4A203B;
+}
+
+.dropdown-menu li a,
+.dropdown-menu li a span
+{
+	color: white;
+}
+
+.container p
+{
+	max-width: 600px;
+}
+
+.jumbotron {
+	background-color: #fff;
+}
+
+.jumbotron p{
+	max-width: 100%;
+}
+
+.front .thumbnail,
+.front a{
+	/*min-height: 420px;*/
+	text-decoration: none;
+	color: inherit;
+}
+
+.front .thumbnail img{
+	max-height: 230px;
+}
+
+u {
+	text-decoration:none;
+	border-bottom: 1px solid #000;
+	padding-bottom: 2px;
+}
+
+@media (max-width: 992px) 
+{
+	h1
+	{
+		font-size: 24px;
+	}
+}
+@media (min-width: 600px) 
+{
+	h1, h3, h4
+	{
+		text-align: center;
+	}
+	
+	.frontp,
+	.content
+	{
+		width: 50%;
+		margin: 0px auto 10px auto;
+	}
+	
+	/*
+	.container p,
+	*:not(.navbar) > .container ul:not(.list-group)
+	{
+		width: 50%;
+		margin: 0px auto 10px auto;
+	}
+	*/
+	
+	img.content-secondary
+	{
+		width: 80%;
+		margin: 0px auto 10px auto;
+	}
+}
